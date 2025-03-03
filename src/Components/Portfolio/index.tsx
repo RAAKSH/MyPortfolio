@@ -6,25 +6,33 @@ import { AiOutlineDownload } from "react-icons/ai";
 import Resume from "../../assets/Raksha_C_new.pdf";
 import { AboutMe } from "../AboutMe/index";
 import { TypeWriter } from "../TypeWriter";
-import {Projects} from '../Projects';
+import { Projects } from '../Projects';
+import { Skills } from "../Skills";
 
 export default function Portfolio() {
     const [darkMode, setDarkMode] = useState(false);
 
     return (
-        <div className={darkMode ? "dark bg-gray-900 text-white" : "bg-blue-100 text-gray-900"}>
+        <div className={darkMode 
+            ? "dark bg-gradient-to-r from-gray-900 via-gray-800 to-black text-white" 
+            : "bg-gradient-to-r from-blue-100 via-blue-200 to-blue-300 text-gray-900"}
+          >
 
-            <nav className={`flex justify-between items-center p-4 shadow-md transition-all duration-300 
+            <div className={`flex justify-between items-center p-4  transition-all duration-300 
                       ${darkMode ? "bg-gray-900 text-white" : "bg-blue-100 text-gray-900"}`}>
 
                 <div className="flex ml-auto space-x-6 m-3">
                     <a href="#about"
                         className="hover:text-blue-500 transition-transform duration-300 transform hover:scale-110">
-                        About Me
+                        👩🏻‍🦰About Me
+                    </a>
+                    <a href="#skills"
+                        className="hover:text-blue-500 transition-transform duration-300 transform hover:scale-110">
+                        💻Skills
                     </a>
                     <a href="#projects"
                         className="hover:text-blue-500 transition-transform duration-300 transform hover:scale-110">
-                        Projects
+                        📃Projects
                     </a>
                 </div>
                 <button
@@ -39,7 +47,7 @@ export default function Portfolio() {
                 </button>
 
 
-            </nav>
+            </div>
 
 
             <header className="flex flex-col items-center justify-center h-screen text-center">
@@ -63,7 +71,7 @@ export default function Portfolio() {
 
                     A passionate Frontend Developer with 3.5 years of experience building scalable and user-friendly applications.
                 </motion.p>
-                <TypeWriter  darkMode={darkMode}/>
+                <TypeWriter darkMode={darkMode} />
                 <div className="m-2 pt-2 flex justify-between">
                     <button className="p-2 m-2 rounded-md transition-all duration-300 bg-blue-950 text-white hover:bg-blue-600 flex items-center">
                         <AiOutlineDownload className="mr-2 text-xl" />
@@ -87,27 +95,18 @@ export default function Portfolio() {
 
             <section className="p-10" id="projects">
                 <h3 className="text-3xl font-semibold text-center mb-6">Projects</h3>
-                {/* <motion.div
-                    className="grid md:grid-cols-2 lg:grid-cols-3 gap-6"
-                    initial={{ opacity: 0 }}
-                    whileInView={{ opacity: 1 }}
-                    transition={{ duration: 1 }}
-                >
-                    <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md transition-all duration-300">
-                        <h4 className="text-xl font-semibold">Project 1</h4>
-                        <p className="text-sm mt-2">A cool project description.</p>
-                    </div>
-                    <div className="p-6 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md transition-all duration-300">
-                        <h4 className="text-xl font-semibold">Project 2</h4>
-                        <p className="text-sm mt-2">Another awesome project.</p>
-                    </div>
 
-                </motion.div> */}
-                <Projects mode={darkMode}/>
+                <Projects mode={darkMode} />
+            </section>
+            <section id="skills" className="p-10 mt-10 flex justify-start">
+                <Skills mode={darkMode} />
             </section>
             <section id="about" className="p-10 mt-10">
                 <AboutMe darkMode={darkMode} />
             </section>
+
+
+
 
         </div>
     );
