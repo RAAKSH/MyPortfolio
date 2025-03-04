@@ -1,4 +1,6 @@
-import image from "../../assets/GirlComputer.jpg";
+//import  image  from "../../assets/GirlComputer.jpg";
+
+import girlComputerImage from "../../assets/girlComputer.jpg"
 
 
 type AboutMeProps = {
@@ -28,7 +30,7 @@ export const AboutMe:React.FC<AboutMeProps>  = ({ darkMode }) => {
 
       <div className="w-full md:w-2/5 flex justify-center items-center p-6 rounded-2xl">
         <img
-          src={image}
+          src={girlComputerImage}
           alt={"default"}
           className="w-full h-auto max-w-sm rounded-lg shadow-lg"
         />
