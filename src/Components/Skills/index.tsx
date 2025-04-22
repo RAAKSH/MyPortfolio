@@ -22,7 +22,11 @@ export const Skills: React.FC<SkillsProps> = ({ mode }) => {
                     <i className="fa-brands fa-react text-blue-500 text-3xl"></i>
                     <span>React</span>
                 </div>
-
+                <div className="flex items-center space-x-3 text-lg font-semibold">
+                   
+                    <span>Next.js</span>
+                </div>
+                
 
                 <div className="flex items-center space-x-3 text-lg font-semibold">
                     <i className="fa-brands fa-css3-alt text-blue-700 text-3xl"></i>

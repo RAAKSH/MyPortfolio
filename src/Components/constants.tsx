@@ -1,6 +1,7 @@
 import BoxedBite from "../assets/BoxedBite.png";
 import weather from "../assets/WeatherApp.png";
 import filmflex from "../assets/filmflex.png";
+import nextLevel from "../assets/nextLevel.png";
 
 
 export const projects = [{
@@ -21,6 +22,12 @@ export const projects = [{
     name: "Weather Forecast",
     desc: "The Weather App is a React-based web application that provides real-time weather updates for any city worldwide. It utilizes the OpenWeather API to fetch weather data and displays key details like temperature, humidity, wind speed. This app  ensures a dynamic and responsive user experience.",
     img: weather
+},
+{
+    id: 4,
+    name: "NextLevel Food Community",
+    desc: "This dynamic full-stack application,built with Next.js, serves as an engaging platform for sharing and discovering recipes within your community. Dive into a diverse array of dishes, complete with step-by-step preparation instructions, and inspire others by sharing your culinary masterpieces.",
+    img: nextLevel
 },
 
 ]
