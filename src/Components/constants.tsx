@@ -2,7 +2,7 @@ import BoxedBite from "../assets/BoxedBite.png";
 import weather from "../assets/WeatherApp.png";
 import filmflex from "../assets/filmflex.png";
 import nextLevel from "../assets/nextLevel.png";
-
+import HR from "../assets/hr.png" 
 
 export const projects = [{
     id: 1,
@@ -28,6 +28,13 @@ export const projects = [{
     name: "NextLevel Food Community",
     desc: "This dynamic full-stack application,built with Next.js, serves as an engaging platform for sharing and discovering recipes within your community. Dive into a diverse array of dishes, complete with step-by-step preparation instructions, and inspire others by sharing your culinary masterpieces.",
     img: nextLevel
+},
+
+{
+    id: 5,
+    name: "HR Dashboard Application",
+    desc: "This dynamic full-stack HR Dashboard is designed and built using React, TypeScript, Redux, and Express.js to simulate a real-world HR management system supporting multiple tenants (companies). The application provides a clean and responsive user experience with modular architecture, production-ready coding standards, and mock backend integration for simulating real API behavior.",
+    img: HR
 },
 
 ]
