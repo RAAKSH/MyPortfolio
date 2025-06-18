@@ -19,6 +19,7 @@ export const projects = [{
     name: "FilmflexGPT",
     desc: "FilmflexGPT is a  Netflix clone with GPT-3 integration. It includes firebase authentication,leveraging data from the TMDB API to provide a vast library of movie. And also sophisticated movie recommendation system by integrating the OpenAI API, enabling the app to generate personalized recommendations based on user preferences. Additionally, introduced multilingual features to cater to adiverse user base. ",
     img: filmflex,
+    live:"https://filmflex-gpt-854r-iwgsa0ita-raakshs-projects.vercel.app/",
     gitHub:"https://github.com/RAAKSH/filmflex-gpt"
 },
 {
