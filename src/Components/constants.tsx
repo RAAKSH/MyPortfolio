@@ -51,7 +51,7 @@ export const projects = [{
     name: "News Sphere",
     desc: "News Sphere is a modern, responsive news portal built with React.js, designed to deliver the latest headlines and trending stories in a clean, user-friendly interface. Whether it's world news, technology, sports, or entertainment — News Sphere keeps users informed and engaged.",
     img: newsphere,
-    //live:"https://panelhr.netlify.app/login",
+    live:"https://news-sphere-six.vercel.app/",
     gitHub:"https://github.com/RAAKSH/news-sphere"
 },
 
