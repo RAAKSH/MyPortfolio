@@ -42,7 +42,7 @@ export const projects = [{
     name: "HR Dashboard Application",
     desc: "This dynamic full-stack HR Dashboard is designed and built using React, TypeScript, Redux, and Express.js to simulate a real-world HR management system supporting multiple tenants (companies). The application provides a clean and responsive user experience with modular architecture, production-ready coding standards, and mock backend integration for simulating real API behavior.",
     img: HR,
-    live:"https://panelhr.netlify.app/login",
+    live:"https://hr-dashboard-indol.vercel.app/",
     gitHub:"https://github.com/RAAKSH/hr-dashboard"
 },
 
