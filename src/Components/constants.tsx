@@ -31,7 +31,7 @@ export const projects = [{
 },
 {
     id: 4,
-    name: "NextLevel Food Community",
+    name: "NextLevel Food Community (Next js)",
     desc: "This dynamic full-stack application,built with Next.js, serves as an engaging platform for sharing and discovering recipes within your community. Dive into a diverse array of dishes, complete with step-by-step preparation instructions, and inspire others by sharing your culinary masterpieces.",
     img: nextLevel,
     live:"https://nextlevelfoodcommunity.netlify.app/",
@@ -49,7 +49,7 @@ export const projects = [{
 
 {
     id: 6,
-    name: "News Sphere",
+    name: "News Sphere (Next js)",
     desc: "News Sphere is a modern, responsive news portal built with React.js, designed to deliver the latest headlines and trending stories in a clean, user-friendly interface. Whether it's world news, technology, sports, or entertainment — News Sphere keeps users informed and engaged.",
     img: newsphere,
     live:"https://news-sphere-six.vercel.app/",
