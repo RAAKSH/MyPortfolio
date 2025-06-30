@@ -3,7 +3,8 @@ import weather from "../assets/WeatherApp.png";
 import filmflex from "../assets/filmflex.png";
 import nextLevel from "../assets/nextLevel.png";
 import HR from "../assets/hr.png" ;
-import newsphere from "../assets/newsphere.png"
+import newsphere from "../assets/newsphere.png";
+import taskManager from "../assets/taskManager.png";
 
 export const projects = [{
     id: 1,
@@ -24,10 +25,11 @@ export const projects = [{
 },
 {
     id: 3,
-    name: "Weather Forecast",
-    desc: "The Weather App is a React-based web application that provides real-time weather updates for any city worldwide. It utilizes the OpenWeather API to fetch weather data and displays key details like temperature, humidity, wind speed. This app  ensures a dynamic and responsive user experience.",
-    img: weather,
-    gitHub:"https://github.com/RAAKSH/WeatherApp"
+    name: "Task Manager",
+    desc: "Task Manager application, built with React, allows users to efficiently manage their tasks. It includes functionality to add, edit, and delete tasks. Users can search tasks by title and filter them based on their status (e.g., Pending, In Progress, Completed). The UI is built using Tailwind CSS for styling and Framer Motion for smooth animations, providing a clean and responsive user experience.",
+    img: taskManager,
+    gitHub:"https://github.com/RAAKSH/task-manager",
+    live:"https://task-manager-pink-nine-72.vercel.app/"
 },
 {
     id: 4,
@@ -46,7 +48,6 @@ export const projects = [{
     live:"https://hr-dashboard-indol.vercel.app/",
     gitHub:"https://github.com/RAAKSH/hr-dashboard"
 },
-
 {
     id: 6,
     name: "News Sphere (Next js)",
@@ -54,6 +55,13 @@ export const projects = [{
     img: newsphere,
     live:"https://news-sphere-six.vercel.app/",
     gitHub:"https://github.com/RAAKSH/news-sphere"
+},
+{
+    id: 7,
+    name: "Weather Forecast",
+    desc: "The Weather App is a React-based web application that provides real-time weather updates for any city worldwide. It utilizes the OpenWeather API to fetch weather data and displays key details like temperature, humidity, wind speed. This app  ensures a dynamic and responsive user experience.",
+    img: weather,
+    gitHub:"https://github.com/RAAKSH/WeatherApp"
 },
 
 ]
